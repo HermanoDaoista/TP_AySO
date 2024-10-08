@@ -1,0 +1,140 @@
+sudo apt update && sudo apt upgrade
+sudo apt install gcc make perl linux-headers-$(uname -r) build-essential 
+exit
+ls /media/ 
+ls /media/daokong/
+cd /media/daokong/VBox_GAs_7.0.20/
+ls
+sudo sh /media/daokong/VBox_GAs_7.0.20/VBoxLinuxAdditions.run
+lsmod | grep 'Vbox'
+cat lsmod | grep 'Vbox'
+lsmod | grep -i 'VBoxguest'
+sudo reboot
+lsmod | grep -i 'VBoxguest'
+cls
+clean
+clear
+mkdir ~/repogit
+ls
+cd r
+cd repogit/
+cd ..
+ls
+ssh-keygen -t rsa -b 4096 -C 'Haciendo el TP'
+cat ~/.ssh/id_rsa.pub
+git clone git@github.com:HermanoDaoista/TP_AySO.git
+sudo apt install git
+git clone git@github.com:HermanoDaoista/TP_AySO.git
+git config --global user.name daokong
+git config --global user.email daokong@pepe.ku
+cd
+~/repogit/
+cd ~/repogit/
+ls
+cd ..
+ls
+rm -r TP_AySO/
+rm -R TP_AySO/
+ls
+rm -rf TP_AySO/
+ls
+~/repogit/
+cd ~/repogit/
+ls
+git clone git@github.com:HermanoDaoista/TP_AySO.git
+ls
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release 
+cat /etc/os-release |grep -i 'homeurl'
+grep -i 'homeurl' /etc/os-release 
+cat /etc/os-release |grep -i 'home_url'
+grep -i 'home_url' /etc/os-release 
+whoami
+echo "GildeGoma=$(whoami)" > datos_usuario.txt
+ls
+cat datos_usuario.txt 
+git add.
+git add .
+git status
+git commit -m "ADD: estamos haciendo"
+git status
+git push origin main 
+cat /proc/cpuinfo 
+grep -i 'model name' /proc/cpuinfo >> datos_usuario.txt 
+cat datos_usuario.txt 
+head -n1 'model name' /proc/cpuinfo >> datos_usuario.txt 
+grep head -n1 'model name' /proc/cpuinfo >> datos_usuario.txt 
+cat /proc/cpuinfo | grep -i 'model name'
+cat /proc/cpuinfo | grep -i 'model name' | head -n 1
+cat /proc/cpuinfo | grep -i 'model name' | head -n 1 > datos_usuario.txt 
+echo "GildeGoma=$(whoami)" >> datos_usuario.txt 
+ca datos_usuario.txt 
+cat datos_usuario.txt 
+git status
+git commit -m "ADD: info el cpu"
+git add
+git add datos_usuario.txt 
+git commit -m "ADD: info el cpu"
+cat /etc/passwd
+cat /etc/passwd |grep -i 'users'
+cat /etc/passwd |grep -i 'user'
+cat /etc/passwd | head -n 10
+cat /etc/passwd | head -n 10 |egrep 'nologin'
+cat /etc/passwd | egrep 'nologin' |head -n 10
+cat /etc/passwd | egrep -v 'nologin' |head -n 10
+cat /etc/passwd | egrep -v 'nologin' |head -n 10 | sort -7
+cat /etc/passwd | egrep -v 'nologin' |head -n 10 | sort -n 7
+cat /etc/passwd | egrep -v 'nologin' |head -n 10 | sort 
+man sort
+cat /etc/passwd | egrep -v 'nologin' |head -n 10 | sort -k
+cat /etc/passwd | egrep -v 'nologin' |head -n 10 | sort k
+cat /etc/passwd | egrep -v 'nologin' |head -n 10 | sort -t ':' -k 7
+cat /etc/passwd | egrep -v 'nologin' |head -n 10 | sort -t ':' -k 7 > lista_ordenada.txt
+cat lista_ordenada.txt 
+git add .
+git commit -m "ADD> listado de usuarios ordenada"
+apropos 'dump traffic'
+apropos 'dump traffic' > comando_dump_net
+ls
+cat comando_dump_net 
+tcpdump
+sudo tcpdump
+~/repogit/TP_AySO/
+cd ~/repogit/TP_AySO/
+ls
+cat <<EOF >README.md Alumno:Rogelio Division: 315 Turno: Noche
+EOF
+
+ls
+cat README.md 
+cat >>EOF> README.md 
+~/repogit/TP_AySO/
+ls
+cd ~/repogit/TP_AySO/
+ls
+cat README.md 
+cat <<EOF>> README.md 
+Alumno: Pitfall
+Division: 315
+Turno: Noche
+EOF
+
+cat README.md 
+cat <<EOF>> README.md 
+Alumno: Pitfall
+Division: 315
+Turno: Noche
+EOF
+
+cat <<EOF> README.md 
+Alumno: DoaKong
+Division: 315
+Turno: Noche
+EOF
+
+cat README.md 
+git add .
+git status
+history -a
