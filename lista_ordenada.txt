@@ -1,0 +1,10 @@
+daokong:x:1000:1000:DaoKong,,,:/home/daokong:/bin/bash
+root:x:0:0:root:/root:/bin/bash
+gdm:x:128:134:Gnome Display Manager:/var/lib/gdm3:/bin/false
+gnome-initial-setup:x:126:65534::/run/gnome-initial-setup/:/bin/false
+hplip:x:127:7:HPLIP system user,,,:/run/hplip:/bin/false
+speech-dispatcher:x:119:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+tss:x:106:113:TPM software stack,,,:/var/lib/tpm:/bin/false
+vboxadd:x:999:1::/var/run/vboxadd:/bin/false
+whoopsie:x:117:124::/nonexistent:/bin/false
+sync:x:4:65534:sync:/bin:/bin/sync
